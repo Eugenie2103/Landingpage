@@ -1,11 +1,38 @@
-body{
-  display:flex;
+section{
+  font-family: Lato light;
+  text-align: justify;
+  }
+
+.article1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.article2{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .img{
+  width: 300px;
+}
+
+.img2{
+  width: 300px;
+}
+.section2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.article3{
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 .img3{
-  width: 100px;
+    width: 300px;
+    height: 300px;
 }
