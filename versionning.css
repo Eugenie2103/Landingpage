@@ -1,63 +1,79 @@
 body{
-  font-family: Lato light;
-  text-align: justify;
-  --**-background-image: url(casque3.jpg);
-  --**-background-repeat: no-repeat;
+  font-family: Roboto;
+  margin: 0;
+}
+
+p{
+  font-size: 19px;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .img{
-  width: 42%;
+  width: 50%;
+}
+
+.img7{
+  width: 150px;
+  margin-top: 2%;
+}
+
+.nom:hover{
+  background-color: #ededed;
+}
+
+.icone{
+  width: 20px;
+  display: inline-block;
+}
+span{
+  font-weight: bold;
+  font-family: Lato;
 }
 
 .img6{
   width: 160px;
-  height: 40px;
-  margin-left: 2%;
+  height: 60px;
   margin-top: 2%;
-}
-
-.section1{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 3%;
-}
-
-.texte{
-  display: flex;
-  flex-direction: column;
-  width: 45%;
-  margin-left: 1%;
-  align-content: center;
 }
 
 .formulaire{
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 55%;
+  width: 60%;
 }
 
-.img7{
-  width: 200px;
-  margin-top: 2%;
-}
 
 h2{
-  font-size: 30px;
-  color: black;
-  padding: 0;
-  margin: 0;
+  margin-top: 3%;
+  font-family: Lato;
 }
 
-p{
-  font-size: 20px;
-  color: black;
+article{
+  margin-left: 3%;
 }
 
-.section2{
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  width: 42%
-}
+@media (max-width: 600px){
+  .img{
+    width: 0;
+  }
+  article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+  }
+  p{
+    font-size: 24px;
+  }
+  body{
+    background-color:#f2eff1;
+  }
+  .img7{
+    width: 200px;
+  }
