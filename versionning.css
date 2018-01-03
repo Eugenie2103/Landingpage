@@ -101,6 +101,18 @@ article{
   justify-content: space-around;
 }
 
+.section3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.CGU{
+    font-size: 10px;
+    text-align: center;
+  }
+
 @media (max-width: 600px){
   .img{
     width: 0;
@@ -114,9 +126,19 @@ article{
   p{
     font-size: 20px;
   }
+  .formulaire{
+    width: 100%;
+  }
   body{
     background-color:#f2eff1;
   }
   .img7{
     width: 200px;
   }
+  .icone{
+    width: 0;
+  }
+  .fleche{
+    width: 0;
+  }
+}
