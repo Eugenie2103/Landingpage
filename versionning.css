@@ -77,6 +77,12 @@ article{
   margin-left: 3%;
 }
 
+.section2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 @keyframes monAnim3 {
   from { opacity: 0;
       transform-origin: 0 0;
@@ -88,17 +94,11 @@ article{
 .fleche{
   height: 20px;
   vertical-align: middle;
-  animation: monAnim3 5s linear 12s;
+  animation: monAnim3 4s linear 10s;
 }
 
 .partenaire{
   height: 20px;
-}
-
-.section2{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .section3{
@@ -125,9 +125,6 @@ article{
   }
   p{
     font-size: 20px;
-  }
-  .formulaire{
-    width: 100%;
   }
   body{
     background-color:#f2eff1;
