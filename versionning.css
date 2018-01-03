@@ -17,9 +17,18 @@ p{
   width: 50%;
 }
 
+@keyframes monAnim2 {
+  from { opacity: 0;
+
+        transform:translate(10px, 0);}
+  35% { opacity: 1; }
+  to {  opacity: 1; }
+}
+
 .img7{
   width: 150px;
   margin-top: 2%;
+  animation: monAnim2 10s linear 1s;
 }
 
 .nom:hover{
@@ -36,8 +45,8 @@ span{
 }
 
 .img6{
-  width: 160px;
-  height: 60px;
+  width: 140px;
+  height: 45px;
   margin-top: 2%;
 }
 
@@ -48,6 +57,20 @@ span{
   width: 60%;
 }
 
+@keyframes monAnim {
+  from { opacity: 0;
+        background-color: white;
+        transform:translate(10px, 0);}
+  35% { opacity: 1;
+        background-color: lightgreen; }
+  to {  opacity: 1;
+        background-color: green; }
+}
+
+.icone{
+  opacity: 0;
+  animation: monAnim 10s linear 1s;
+}
 
 h2{
   margin-top: 3%;
