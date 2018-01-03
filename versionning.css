@@ -1,6 +1,7 @@
 body{
   font-family: Roboto;
   margin: 0;
+  background-color: #f7f7f7;
 }
 
 p{
@@ -121,7 +122,7 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 2%;
+    margin-left: 1%;
   }
   p{
     font-size: 20px;
@@ -130,12 +131,18 @@ article{
     background-color:#f2eff1;
   }
   .img7{
-    width: 200px;
+    width: 150px;
   }
   .icone{
     width: 0;
   }
   .fleche{
     width: 0;
+  }
+  .bouton{
+    height: 35px;
+    background-color: #234bff;
+    color: white;
+    border-radius: 1;
   }
 }
