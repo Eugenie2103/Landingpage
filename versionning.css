@@ -3,87 +3,65 @@ body{
   margin: 0;
   background-color: #f7f7f7;
 }
-
-p{
-  font-size: 19px;
-}
-
 .section{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
 .img{
   width: 50%;
 }
-
+p{
+  font-size: 19px;
+}
 @keyframes monAnim2 {
   from { opacity: 0;
         transform:rotate(360deg);}
   35% { opacity: 1; }
   to {  opacity: 1; }
 }
-
-.img7{
-  width: 150px;
+.img2{
+  width: 140px;
+  height: 45px;
   margin-top: 2%;
-  animation: monAnim2 5s linear 1s;
 }
-
-.nom:hover{
-  background-color: #ededed;
-}
-
-.icone{
-  width: 20px;
+h2{
+  margin-top: 3%;
+  font-family: Lato;
 }
 span{
   font-weight: bold;
   font-family: Lato;
 }
-
-.img6{
-  width: 140px;
-  height: 45px;
+.img3{
+  width: 150px;
   margin-top: 2%;
+  animation: monAnim2 5s linear 1s;
 }
-
 .formulaire{
   display: flex;
   flex-direction: column;
   align-content: center;
   width: 60%;
 }
-
+.nom:hover{
+  background-color: #ededed;
+}
+article{
+  margin-left: 3%;
+}
 @keyframes monAnim {
   from { opacity: 0;
         transform:translate(10px, 0);}
   35% { opacity: 0.5; }
   to {  opacity: 1; }
 }
-
 .icone{
+  width: 20px;
   opacity: 0;
   vertical-align: middle;
   animation: monAnim 10s linear 5s;
 }
-
-h2{
-  margin-top: 3%;
-  font-family: Lato;
-}
-
-article{
-  margin-left: 3%;
-}
-
-.section2{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 @keyframes monAnim3 {
   from { opacity: 0;
       transform-origin: 0 0;
@@ -91,17 +69,19 @@ article{
   35% { opacity: 0; }
   to {  opacity: 1; }
 }
-
 .fleche{
   height: 20px;
   vertical-align: middle;
   animation: monAnim3 4s linear 10s;
 }
-
+.section2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .partenaire{
   height: 20px;
 }
-
 .section3{
   display: flex;
   flex-wrap: wrap;
@@ -115,8 +95,14 @@ article{
   }
 
 @media (max-width: 600px){
+  body{
+    background-color:#f2eff1;
+  }
   .img{
     width: 0;
+  }
+  p{
+    font-size: 20px;
   }
   article{
     display: flex;
@@ -124,13 +110,7 @@ article{
     align-items: center;
     margin-left: 1%;
   }
-  p{
-    font-size: 20px;
-  }
-  body{
-    background-color:#f2eff1;
-  }
-  .img7{
+  .img3{
     width: 150px;
   }
   .icone{
